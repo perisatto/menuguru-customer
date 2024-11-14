@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: menuguru-customer-deployment
   labels:
-    menuguru.fiapprj.perisatto.com/name: service
+    menuguru.fiapprj.perisatto.com/name: customer-service
 spec:
   {{- if not .Values.autoscaling.enabled }}
   replicas: {{ .Values.replicaCount }}
