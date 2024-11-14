@@ -50,13 +50,13 @@ spec:
             - containerPort: 8080      
           readinessProbe:
             httpGet:
-              path: /menuguru-customer/v1/actuator/health
+              path: /menuguru-customers/v1/actuator/health
               port: 8080
             initialDelaySeconds: 30
             periodSeconds: 10
           livenessProbe:
             httpGet:
-              path: /menuguru-customer/v1/actuator/health
+              path: /menuguru-customers/v1/actuator/health
               port: 8080
             initialDelaySeconds: 30
             periodSeconds: 60
