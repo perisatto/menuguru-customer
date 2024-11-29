@@ -42,4 +42,4 @@ Para verificação de cobertura de testes foi utilizado o serviço Sonar Cloud. 
 
 Para demonstrar a arquitetura do projeto e a execução do mesmo em ambiente AWS, disponibilizamos o video no link abaixo com a explicação do projeto e de sua execução.
 
-* [YouTube](https://youtu.be/RLnS_9L-QcA)
+* [YouTube](https://youtu.be/eIuvyBvLPls)
